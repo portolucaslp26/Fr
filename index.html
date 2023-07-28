@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/ico" href="/assets/images/favicon.ico">
+    <title>LuckspinBet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css">
+    
+</head>
+<body>
+    <nav>
+        <div class="nav__left">
+           <div class="col">
+            <a  class="icon__header" href="/">
+                <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_310:1614)">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.9098 11.6999L8.50983 0.679922C8.46867 0.552431 8.40232 0.434509 8.31471 0.333157C8.2271 0.231805 8.12002 0.14909 7.99983 0.0899224C7.87947 0.0329628 7.74798 0.00341797 7.61483 0.00341797C7.48167 0.00341797 7.35018 0.0329628 7.22983 0.0899224L0.619826 2.88992C0.493193 2.94358 0.378991 3.02278 0.284356 3.12258C0.189721 3.22238 0.11669 3.34062 0.0698257 3.46992C-0.0297857 3.73762 -0.0297857 4.03222 0.0698257 4.29992L4.46983 15.2999C4.57246 15.5621 4.7734 15.7738 5.02983 15.8899C5.15209 15.9464 5.28515 15.9756 5.41983 15.9756C5.5545 15.9756 5.68757 15.9464 5.80983 15.8899L12.3698 13.0799C12.4946 13.0251 12.6069 12.9454 12.6997 12.8457C12.7926 12.746 12.8641 12.6283 12.9098 12.4999C13.0074 12.2422 13.0074 11.9577 12.9098 11.6999ZM9.06983 8.61992C8.93162 8.86983 8.73468 9.08235 8.496 9.23915C8.25732 9.39595 7.98407 9.49231 7.69983 9.51992L8.55983 10.2399L6.76983 10.9999L6.88983 9.85992C6.67818 10.0484 6.42277 10.181 6.14682 10.2456C5.87088 10.3102 5.58316 10.3048 5.30983 10.2299C3.30983 9.45992 4.59983 6.85992 5.59983 5.44992C7.27983 5.71992 9.84982 6.91992 9.06983 8.61992Z" fill="#8C9099">
+                        </path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.64 5.7698L11 1.5998C11.07 1.45195 11.1686 1.3194 11.29 1.2098C11.4911 1.05154 11.7452 0.976385 12 0.999805L19.1 2.0798C19.2361 2.09929 19.3668 2.14665 19.4838 2.21892C19.6008 2.29118 19.7016 2.3868 19.78 2.4998C19.9514 2.729 20.0267 3.01597 19.99 3.2998C19.7 5.8898 18.99 12.4698 18.65 15.0598C18.6206 15.3369 18.4843 15.5917 18.27 15.7698C18.1671 15.8558 18.0467 15.9182 17.9171 15.9528C17.7876 15.9873 17.652 15.9931 17.52 15.9698L11.33 14.9998L13.9 13.8998C14.359 13.6907 14.718 13.3102 14.9 12.8398C15.0853 12.3535 15.0853 11.8161 14.9 11.3298L14.56 10.4698C15.4643 10.0656 16.2545 9.44374 16.86 8.6598C17.156 8.28955 17.3397 7.84222 17.3893 7.37079C17.439 6.89936 17.3524 6.42358 17.14 5.9998C16.8902 5.70621 16.546 5.50872 16.1665 5.44121C15.7869 5.37369 15.3957 5.44037 15.06 5.62981C14.7971 5.35867 14.4491 5.18593 14.0742 5.14043C13.6993 5.09493 13.3201 5.17943 13 5.37981C12.8533 5.4823 12.7304 5.61535 12.64 5.7698Z" fill="#414952"></path></g><defs><clipPath id="clip0_310:1614"><rect width="20" height="16" fill="white">
+
+                        </rect>
+                      </clipPath>
+                     </defs>
+               </svg>CASSINO</a>
+           </div>
+           <div class="col">&nbsp;</div>
+        </div>
+        <div class="nav__right">
+          <div class="brand">
+            <a class="btn__aside" href="#">
+             <img src="/assets/images/icons/hamburguer.svg"  alt="Menu hamburguer">
+            </a>
+           <a href="/" class="logo">
+            <img class="logo__desktop" src="/assets/images/logo.svg" alt="Logo Luckspin"> 
+            <img class="logo__mobile" src="/assets/images/logo--mobile.svg"  alt="Logo Luckspin Mobile">
+           </a>
+          </div>
+          <button id="openModalBtn" class="btn btn-primary">Login</button>
+          <button id="openModalCadBtn" class="btn btn-primary">Cadastro</button>
+            <a class="btn btn-primary" href="tables.html">Ir para a página com as abas</a>
+
+          <div class="infos">
+            <div class="rank">
+             <div class="top">
+                <div >
+
+                 <span>sem ranque</span>
+                </div>
+                <div class="level">Nível 1</div>
+             </div>
+             <!-- <div class="progress-bar">
+                <div class="progress unranked-background" style="width: 0%;">
+                </div>
+              </div> -->
+            </div>
+            <div class="user">
+              <a href="#" class="mail">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#fff" viewBox="0 0 16 16">
+                  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                </svg>
+              </a>
+              <a href="#" class="account">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#fff" viewBox="0 0 16 16">
+                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                </svg>
+              </a>
+      
+            </div>
+            <div class="balance">
+                <div class=" currency">R$&nbsp;0,00</div>
+                <div style="margin-left: 5px;">
+                    <img src="/assets/images/icons/currency.svg"></div>
+            </div>
+            <div class="deposit">
+                <button class="btn__deposit" id="depositBtn">Depositar</button>
+            </div>
+          </div>
+     
+        </div>
+    </nav>
+    <aside class="lateral__menu">
+        <a href="" class="btn__cta">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cash-stack" viewBox="0 0 16 16">
+                <path d="M1 3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1H1zm7 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
+                <path d="M0 5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V5zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V7a2 2 0 0 1-2-2H3z"/>
+              </svg>
+            <span>CHAMADA CTA</span> 
+        </a>
+        <div class="menus">          
+          <ul class="menu__collapse">
+            <button class="openContent">ORIGINAIS</button>
+            <div class="content">                
+                    <li>
+                      <a href="/crash.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
+                          <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
+                          <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+                       </svg> 
+                       <span>CRASH</span> 
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
+                          <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
+                          <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+                       </svg> 
+                       <span>DOUBLE</span> 
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
+                          <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
+                          <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+                       </svg> 
+                       <span>MINES</span> 
+                      </a>
+                    </li>  
+                    <li>
+                      <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
+                          <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
+                          <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+                       </svg> 
+                       <span>DICE</span> 
+                      </a>
+                    </li>                  
+            </div>
+            <div class="line"></div>
+            <button class="openContent">AO VIVO</button>
+            <div class="content">                
+                    <li>
+                      <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
+                          <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
+                          <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+                       </svg> 
+                       <span>BLACKJACK</span> 
+                      </a> 
+                    </li>
+                    <li>
+                      <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
+                          <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
+                          <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+                       </svg> 
+                       <span>CRAZY TIME</span> 
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
+                          <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
+                          <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+                       </svg> 
+                       <span>ROULETTE</span> 
+                      </a> 
+                    </li> 
+                    <li>
+                      <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
+                          <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
+                          <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+                       </svg> 
+                       <span>COIN FLIP</span> 
+                      </a>  
+                    </li> 
+                    <li>
+                      <a href="#">
+                        <svg xmlns="htt p://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
+                          <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
+                          <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+                       </svg> 
+                       <span>MEGA BALL</span> 
+                      </a>
+                    </li>            
+                 
+            </div>
+            <div class="line"></div>
+            <button class="openContent">PROVEDORES</button>
+            <div class="content">               
+                    <li>
+                      <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
+                          <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
+                          <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+                       </svg> 
+                       <span>EVOLUTION</span>
+                      </a> 
+                    </li>
+                    <li>
+                      <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
+                          <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
+                          <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+                       </svg> 
+                       <span>EZUGI</span> 
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
+                          <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
+                          <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+                        </svg> 
+                        <span>NETEND</span> 
+                      </a>
+                    </li> 
+                    <li>
+                      <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
+                          <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
+                          <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+                        </svg> 
+                        <span>REDTIGER</span> 
+                      </a>
+                    </li>   
+                    <li>
+                      <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
+                          <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
+                          <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+                        </svg> 
+                        <span>HACKSAW</span> 
+                      </a>
+                    </li>          
+            </div>
+            <div class="line"></div>
+      
+          </ul>
+        <div class="menu__bottom">
+            <ul>                      
+               <li><a href="#">PERFIL</a></li>
+               <li><a href="#">RECOMPENSAS</a></li>
+               <li><a href="#">SUPORTE AO VIVO</a></li>
+               <li><a href="#">SUPORTE EMAIL</a></li>             
+            </ul>
+        </div>
+          
+        </div>
+    </aside>
+    <main>
+      <div class="center">
+        <div class="container">
+          <section class="banner__top">              
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="/assets/images/banners/bonus.png" alt="Bônus de boas vindas" width="600px"></div>
+                  <div class="swiper-slide"><img src="/assets/images/banners/cassino.png" alt="Cassino ao vivo" width="600px"></div>
+                  <div class="swiper-slide"><img src="/assets/images/banners/originais.png" alt="Jogos originais" width="600px"></div>
+                  <div class="swiper-slide"><img src="/assets/images/banners/slots.png" alt="Jogos slots" width="600px"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+          </section>
+      <section class="search">
+        <form>
+        <input type="search" name="search" id="search" placeholder="Buscar por jogo...">
+        <span class="icon__search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg>
+        </span>
+        </form>
+      </section>
+      <section class="games">
+        <div class="cards__line">
+          <div class="top">
+           <div class="left">
+           
+           </div>
+           
+          </div>
+          <section class="row-cards">
+            <div class="swiper cardsSwipper">
+              <div  class="head-sec">
+                <h3>Originais</h3>
+                <div class="wrapper-nav">
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                </div>
+              </div>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide slide-card" style="background:url('assets/images/cards/crash.png') no-repeat center center;"><a href="#" class="btn-entre"><img src="assets/images/icons/arrow-btn.svg" alt="Card Crash">Entre</a></div>
+                <div class="swiper-slide slide-card" style="background:url('assets/images/cards/double.png') no-repeat center center;"><a href="#" class="btn-entre"><img src="assets/images/icons/arrow-btn.svg" alt="Card Double">Entre</a></div>
+                <div class="swiper-slide slide-card" style="background:url('assets/images/cards/dice.png') no-repeat center center;"><a href="#" class="btn-entre"><img src="assets/images/icons/arrow-btn.svg" alt="Card Dice">Entre</a></div>
+                <div class="swiper-slide slide-card" style="background:url('assets/images/cards/crash.png') no-repeat center center;"><a href="#" class="btn-entre"><img src="assets/images/icons/arrow-btn.svg" alt="Card Crash">Entre</a></div>
+                <div class="swiper-slide slide-card" style="background:url('assets/images/cards/mines.png') no-repeat center center;"><a href="#" class="btn-entre"><img src="assets/images/icons/arrow-btn.svg" alt="Card Mines">Entre</a></div>
+                <div class="swiper-slide slide-card" style="background:url('assets/images/cards/double.png') no-repeat center center;"><a href="#" class="btn-entre"><img src="assets/images/icons/arrow-btn.svg" alt="Card Double">Entre</a></div>
+                <div class="swiper-slide slide-card" style="background:url('assets/images/cards/dice.png') no-repeat center center;"><a href="#" class="btn-entre"><img src="assets/images/icons/arrow-btn.svg" alt="Card Dice">Entre</a></div>
+              </div>
+            </div>
+          </section>
+          <section class="row-cards">
+            <!-- Swiper -->
+            <div class="swiper cardsSwipper">
+              <div  class="head-sec">
+                <h3>Popular</h3>
+                <div class="wrapper-nav">
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                </div>
+              </div>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide slide-card" style="background:url('assets/images/cards/double.png') no-repeat center center;"><a href="#" class="btn-entre"><img src="assets/images/icons/arrow-btn.svg" alt="Card Double">Entre</a></div>
+                <div class="swiper-slide slide-card" style="background:url('assets/images/cards/crash.png') no-repeat center center;"><a href="#" class="btn-entre"><img src="assets/images/icons/arrow-btn.svg" alt="Card Crash">Entre</a></div>
+                <div class="swiper-slide slide-card" style="background:url('assets/images/cards/mines.png') no-repeat center center;"><a href="#" class="btn-entre"><img src="assets/images/icons/arrow-btn.svg" alt="Card Mines">Entre</a></div>
+                <div class="swiper-slide slide-card" style="background:url('assets/images/cards/double.png') no-repeat center center;"><a href="#" class="btn-entre"><img src="assets/images/icons/arrow-btn.svg" alt="Card Double">Entre</a></div>
+                <div class="swiper-slide slide-card" style="background:url('assets/images/cards/dice.png') no-repeat center center;"><a href="#" class="btn-entre"><img src="assets/images/icons/arrow-btn.svg" alt="Card Dice">Entre</a></div>
+                <div class="swiper-slide slide-card" style="background:url('assets/images/cards/crash.png') no-repeat center center;"><a href="#" class="btn-entre"><img src="assets/images/icons/arrow-btn.svg" alt="Card Crash">Entre</a></div>
+                <div class="swiper-slide slide-card" style="background:url('assets/images/cards/dice.png') no-repeat center center;"><a href="#" class="btn-entre"><img src="assets/images/icons/arrow-btn.svg" alt="Card Dice">Entre</a></div>
+
+              </div>
+            </div>
+          </section>
+
+        </div>
+      </section>
+        </div>
+
+      </div>
+      <div class="footer">
+       <div class="container">
+        <div class="top">
+          <div class="brand">
+            <a href="/" class="logo">
+              <img class="logo__footer" src="/assets/images/logo__footer.svg" alt="Logo Luckspin"> 
+             </a>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+               Qui, perspiciatis odio ratione ipsum nihil facere fuga esse fugiat 
+              inventore nulla iure eius quo labore sunt autem itaque. 
+              
+            </p>
+            <ul class="footer__brand">
+              <li>
+                <a href="/" class="social">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                  </svg>
+                </a>
+              </li>   
+              <li>
+                <a href="/" class="social">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                  </svg>
+                </a>
+              </li>  
+              <li>
+                <a href="/" class="social">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                  </svg>
+                </a>
+              </li>            
+            </ul>
+          </div>
+          <div class="menu__footer">
+            <div>
+              <h4>LINKS ÚTEIS</h4>
+              <ul>
+                <li><a href="#">LINK</a></li>
+                <li><a href="#">LINK</a></li>
+                <li><a href="#">LINK</a></li>
+                <li><a href="#">LINK</a></li>
+              </ul>
+            </div>
+            <div>
+              <h4>SOBRE NÓS</h4>
+              <ul>
+                <li><a href="#">LINK</a></li>
+                <li><a href="#">LINK</a></li>
+                <li><a href="#">LINK</a></li>
+                <li><a href="#">LINK</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>       
+       </div>
+       </div>
+      
+    </main>
+<div id="nav__mobile">
+    <ul class="menu__bottom">
+        <li>
+            <svg width="24" height="24" viewBox="0 0 16 16" fill="none">
+                <path d="M2 3.33301H14" stroke="#496570" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round">
+               </path>
+               <path d="M2 8H14" stroke="#496570" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round">
+              </path>
+              <path d="M2 12.666H14" stroke="#496570" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round">
+              </path>
+            </svg> 
+            <div>Menu</div>
+        </li>
+        <li>
+            <a>            
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M12.7 11.3C13.6 10.1 14.1 8.7 14.1 7.1C14.1 3.2 11 0 7.1 0C3.2 0 0 3.2 0 7.1C0 11 3.2 14.2 7.1 14.2C8.7 14.2 10.2 13.7 11.3 12.8L14.3 15.8C14.5 16 14.8 16.1 15 16.1C15.2 16.1 15.5 16 15.7 15.8C16.1 15.4 16.1 14.8 15.7 14.4L12.7 11.3ZM7.1 12.1C4.3 12.1 2 9.9 2 7.1C2 4.3 4.3 2 7.1 2C9.9 2 12.2 4.3 12.2 7.1C12.2 9.9 9.9 12.1 7.1 12.1Z" fill="#8C9099">
+               </path>
+              </svg>
+               <div class="name">Pesquisa</div>
+           </a>
+        </li>
+        <li><img src="/assets/images/icons/crown.svg" alt="Icone Central" width="17px" height="15px"></li>
+        <li>
+            <a>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 2V16L5 11H14C15.105 11 16 10.105 16 9V2C16 0.895 15.105 0 14 0H2C0.895 0 0 0.895 0 2Z" fill="#8C9099">
+                </path>
+                </svg>
+                <div>Chat</div>
+            </a>
+        </li>
+        <li>
+            <a href="/pt/rewards">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8 0C6.41775 0 4.87103 0.469192 3.55544 1.34824C2.23985 2.22729 1.21447 3.47672 0.608967 4.93853C0.00346625 6.40034 -0.15496 8.00887 0.153721 9.56072C0.462403 11.1126 1.22433 12.538 2.34315 13.6569C3.46197 14.7757 4.88743 15.5376 6.43928 15.8463C7.99113 16.155 9.59966 15.9965 11.0615 15.391C12.5233 14.7855 13.7727 13.7602 14.6518 12.4446C15.5308 11.129 16 9.58225 16 8C16 5.87827 15.1571 3.84344 13.6569 2.34315C12.1566 0.842855 10.1217 0 8 0V0ZM10.629 11.618L8 10.236L5.371 11.618L5.871 8.691L3.747 6.618L6.686 6.191L8 3.528L9.314 6.191L12.253 6.618L10.127 8.691L10.629 11.618Z" fill="#8C9099">
+                  </path>
+                </svg>
+                <div>Recompensas</div>
+            </a>
+        </li>
+    </ul>
+</div>
+<div id="modalDeposit" class="modal"> 
+  <div class="modalBody">
+    <div class="top">
+      <span class="close" id="close">&times;</span>
+    </div>   
+    <div class="content">
+      
+    </div> 
+  </div>
+</div>
+
+<!-- MODAL DE LOGIN -->
+<div id="modal" class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content bg-dark border border-dark modal-content-login">
+      <div class="modal-header border-0">
+        <h5 class="modal-title text-light fw-bold">Login Na Sua Conta</h5>
+        <button type="button" class="btn-sm btn-dark text-light" data-bs-dismiss="modal" aria-label="Close">X</button>
+      </div>
+      <div class="modal-body">
+        <form id="loginForm">
+          <div class="mb-3 text-start">
+            <input type="text" class="form-control bg-dark2 border-0 text-warning" placeholder="E-mail" id="username" required>
+          </div>
+          <div class="mb-3 text-start">
+            <input type="password" class="form-control bg-dark2 border-0 text-warning" placeholder="Senha" id="passwordCad" required>
+          </div>
+          <div class="d-flex justify-content-between">
+            <div class="d-flex text-light">
+              <input type="checkbox" name="remember" id="remember">
+              <label class="form-label ms-2 mt-2" for="remember">Lembrar</label>
+            </div>
+            <p class="text-warning">Esqueceu sua senha?</p>
+          </div>
+          <button type="submit" class="btn btn-warning col-12 fw-bold">Logar</button>
+          <p class="text-light">Não tem uma conta? Clique <span class="text-warning"> aqui</span></p>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL DE CADASTRO -->
+<div id="modalCad" class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content modal-content-cadastro bg-dark border-0">
+      <div class="modal-header border-0">
+        <h5 class="modal-title text-light fw-bold">Cadastro</h5>
+        <button type="button" class="btn-sm btn-dark text-light" data-bs-dismiss="modal" aria-label="Close">X</button>
+      </div>
+      <div class="modal-body">
+        <form id="cadastroForm">
+          <div class="mb-3">
+            <input type="text" placeholder="Nome" class="form-control bg-dark2 border-0 text-warning" id="name" required>
+          </div>
+          <div class="mb-3">
+            <input type="email" placeholder="E-mail" class="form-control bg-dark2 border-0 text-warning" id="email" required>
+          </div>
+          <div class="form-label  text-secondary">Data de Nascimento</div>
+          <div class="row mb-3">
+            <div class="col pe-0">
+              <input type="number" placeholder="Dia" class="form-control bg-dark2 border-0 text-warning" id="day" required>
+            </div>
+            <div class="col ">
+              <input type="number" placeholder="Mês" class="form-control bg-dark2 border-0 text-warning" id="month" required>
+            </div>
+            <div class="col ps-0">
+              <input type="number" placeholder="Ano" class="form-control bg-dark2 border-0 text-warning" id="year" required>
+            </div>
+          </div>
+          <div class="mb-3">
+            <input type="password" placeholder="Senha" class="form-control bg-dark2 border-0 text-warning" id="password" required>
+          </div>
+          <div class="mb-3">
+            <input type="password" placeholder="Confirmar Senha" class="form-control bg-dark2 border-0 text-warning" id="confirmPassword" required>
+          </div>
+          <div class="mb-3">
+            <input type="text" placeholder="Código de Afiliado" class="form-control bg-dark2 border-0 text-warning" id="memberCode">
+          </div>
+          <div class="d-flex text-light" style="margin-top: -12px; font-size:13px">
+            <input type="checkbox" name="adult" id="adult">
+            <label class="form-label ms-2 mt-2" for="adult">Eu certifico que tenho ao menos 18 anos de idade</label>
+          </div>
+          <div class="d-flex text-light" style="margin-top: -12px; font-size:13px">
+            <input type="checkbox" name="terms" id="terms">
+            <label class="form-label ms-2 mt-2" for="terms">Eu estou de acordo com os <span class="text-warning">Termos de privacidade</span></label>
+          </div>
+          <button type="submit" class="btn btn-warning fw-bold col-12">Registrar</button>
+          <div class="text-center mt-2">
+            <p class="text-light">Já possui uma conta? Clique <span class="text-warning"> aqui</span></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://kit.fontawesome.com/1d2ac41b15.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <script src="/assets/js/swiper-bundle.min.js"></script>
+  <script src="/assets/js/script.js"></script>    
+</body>
+</html>
